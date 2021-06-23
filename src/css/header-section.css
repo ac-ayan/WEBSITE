@@ -85,14 +85,14 @@
   height: 70px;
   margin-left: 60px;
   margin-top: 60px;
-  box-shadow: inset 0 0 0 2px rgb(95,95,255);
+  box-shadow: inset 0 0 0 2.5px #030047;
   border-radius: 25px;
 }
 .icon-scroll:before{
   content: '';
   width: 8px;
   height: 8px;
-  background: rgb(95,95,255);
+  background: #030047;
   margin-left: 16px;
   border-radius: 4px;
   animation-duration: 1.5s;
