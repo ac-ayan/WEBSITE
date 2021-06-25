@@ -15,8 +15,8 @@ function NavBar(){
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Link to="about" smooth={true} offset={-100}><Nav.Link className="nav-item" href="#home">About</Nav.Link></Link>
-      <Link to="skill" smooth={true}><Nav.Link className="nav-item" href="#link">Skills</Nav.Link></Link>
-      <Link to="project" smooth={true}><Nav.Link className="nav-item" href="#link">Projects</Nav.Link></Link>
+      <Link to="skills" smooth={true} offset={-120}><Nav.Link className="nav-item" href="#link">Skills</Nav.Link></Link>
+      <Link to="projects" smooth={true} offset={-100}><Nav.Link className="nav-item" href="#link">Projects</Nav.Link></Link>
       <Link to="education" smooth={true} offset={-65}><Nav.Link className="nav-item" href="#link">Education</Nav.Link></Link>
       <Link to="contact" smooth={true} offset={-100}><Nav.Link className="nav-item" href="#link">Contact</Nav.Link></Link>
     </Nav>

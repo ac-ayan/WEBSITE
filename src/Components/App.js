@@ -5,6 +5,8 @@ import About from "./About";
 import Footer from "./Footer";
 import Contact from "./Contact";
 import Education from "./Education";
+import Project from "./Project";
+import Skill from "./Skill";
 import "../css/main-div.css";
 function App(){
     return (
@@ -13,6 +15,10 @@ function App(){
       <Header />
       <hr class="separator separator--dots" />
       <About />
+      <hr class="separator separator--dots" />
+      <Skill />
+      <hr class="separator separator--dots" />
+      <Project />
       <hr class="separator separator--dots" />
       <Education />
       <hr class="separator separator--dots" />

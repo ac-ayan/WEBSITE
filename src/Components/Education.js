@@ -5,11 +5,10 @@ function Education(){
         <div className="edu-section" name="education">
             <h1>Education</h1>
 
-
             <div class="timeline"> 
   <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
     <div class="timeline__event__icon ">
-      <i class="lni-cake"></i>
+    <i class="fas fa-university"></i>
 
     </div>
     <div class="timeline__event__date">
@@ -43,7 +42,7 @@ function Education(){
   </div>
   <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
     <div class="timeline__event__icon">
-      <i class="lni-slim"></i>
+    <i class="fas fa-school"></i>
 
     </div>
     <div class="timeline__event__date">
@@ -61,7 +60,7 @@ function Education(){
   </div>
   <div class="timeline__event animated fadeInUp timeline__event--type1">
     <div class="timeline__event__icon">
-      <i class="lni-cake"></i>
+    <i class="fas fa-school"></i>
 
     </div>
     <div class="timeline__event__date">

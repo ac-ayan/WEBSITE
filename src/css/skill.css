@@ -1,0 +1,32 @@
+
+.skill-section h1{
+    font-family: "Special Elite", cursive;
+    font-size: 60px;
+    padding-left: 70px;
+}
+.skill-section{
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: center;
+}
+.skill-section i{
+    font-size: 100px;
+}
+.card{
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+.card-body{
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+}
+.skill-list{
+    padding: 50px 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}

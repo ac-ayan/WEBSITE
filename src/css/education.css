@@ -95,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5f5fff;
+    color: #fff;
     padding: 20px;
     align-self: center;
     margin: 0 20px;
@@ -171,7 +171,7 @@
   }
   .timeline__event--type3 .timeline__event__icon {
     background: #030047;
-    color: #030047;
+    color: #fff;
   }
   .timeline__event--type3 .timeline__event__icon:before, .timeline__event--type3 .timeline__event__icon:after {
     background: #030047;

@@ -1,0 +1,37 @@
+.project-section h1{
+    font-family: "Special Elite", cursive;
+    font-size: 60px;
+    padding-left: 70px;
+}
+.project-section{
+    padding: 0px 150px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+    
+}
+.project-section .card-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card{
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-text{
+    text-align: justify;
+    text-align-last: center;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+.main-card{
+    height: 210px;
+}
+.button-card{
+    height: 80px;
+}
+.card-img-top {
+    height: 250px;
+}
