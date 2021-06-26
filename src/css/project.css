@@ -72,3 +72,13 @@
         width: 800px !important;
     }
 }
+@media (max-width: 409px){
+    .project-list .card{
+        width: 350px !important;
+    }
+    .project-section h1{
+        font-size: 50px;
+        text-align:center;
+        padding-left: 0px;
+    }
+}

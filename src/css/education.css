@@ -253,7 +253,16 @@
     .edu-section{
       padding: 0px 10px;
     }
+    .edu-section h1{
+      padding-left: 10px;
+  }
     .timeline__event{
      width: 90%;
+    }
+  }
+  @media (max-width: 410px){
+    .edu-section h1{
+      font-size: 50px;
+      text-align:center;
     }
   }
