@@ -247,3 +247,13 @@
       left: 100%;
     }
   }
+
+
+  @media (max-width: 885px){
+    .edu-section{
+      padding: 0px 10px;
+    }
+    .timeline__event{
+     width: 90%;
+    }
+  }

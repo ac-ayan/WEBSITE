@@ -30,3 +30,33 @@
     justify-content: space-evenly;
     vertical-align: middle;
 }
+
+@media (max-width:1051px){
+    .skill-section{
+        padding: 0px 10px;
+    }
+    .skill-list{
+        padding: 0px 30px;
+    }
+}
+@media (max-width:863px){
+    .skill-section{
+        padding: 0px 10px;
+    }
+    .skill-list{
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media (max-width:687px){
+    .skill-list{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media (max-width:535px){
+    .skill-list{
+        grid-template-columns:auto auto auto;
+    }
+    .skill-section i{
+        font-size: 80px;
+    }
+}
