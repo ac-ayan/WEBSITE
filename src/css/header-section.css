@@ -75,7 +75,7 @@
 
 
 
-  /* //scroll Icon// */
+  /* //scroll Icon//
 
 
 .icon-scroll,
@@ -109,7 +109,7 @@
     opacity: 0;
     transform: translateY(46px);
   }
-}
+} */
 
 
 @media (max-width: 1454px){
@@ -151,9 +151,9 @@
   margin-left: 0px !important;
 }
 
-.icon-scroll{
+/* .icon-scroll{
   display: none !important;
-}
+} */
 .header-section .image-section img {
   width: 100%;
 }

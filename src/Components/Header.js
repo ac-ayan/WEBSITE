@@ -19,7 +19,6 @@ function Header(){
                 <p className="mobile-head">I'm a web developer, flutter app developer and a competitive coder from India.</p>
                 <div>
                 <button className="button glow-button">Resume</button>
-                <div className='icon-scroll'></div>
                 </div>
                 
                 </div>

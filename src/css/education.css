@@ -68,9 +68,9 @@
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: #030047;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
   }
   .timeline__event__content {
     padding: 20px;
@@ -138,6 +138,9 @@
   }
   .timeline__event__description {
     flex-basis: 60%;
+  }
+  .timeline__event__description p{
+    margin-top: 20px;
   }
   .timeline__event--type2:after {
     background: #555ac0;

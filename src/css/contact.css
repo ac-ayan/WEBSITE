@@ -12,10 +12,34 @@
     background-color: rgb(3,0,71);
     padding: 40px;
     color: white;
+    text-align: center;
 }
 .colored h2{
     font-family: "Special Elite", cursive;
     font-size: 50px;
+}
+.contact-colored{
+    display: grid;
+    grid-template-columns: auto 80%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 400px;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.contact-colored i{
+    color: white !important;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.contact-colored p{
+    padding: 10px 40px;
+    margin: 0;
+    width: 350px;
 }
 .non-colored{
     padding: 40px;
@@ -23,7 +47,7 @@
 }
 .non-colored h2{
     font-family: "Special Elite", cursive;
-    font-size: 50px;
+    font-size: 10px 50px;
 }
 
 

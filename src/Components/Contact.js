@@ -6,6 +6,18 @@ function Contact(){
         <div className="contact-section" name="contact">
             <div className="colored">
                 <h2>Contact Me</h2>
+                <div className="contact-colored">
+                  <div><i class="fas fa-map-marked-alt"></i></div>
+                  <div><p>Nabapalli, Tirol Road, Ward - 06, Arambagh, Hooghly
+                  West Bengal, Pin - 712601
+                  </p></div>
+                  <div><i class="fas fa-envelope"></i></div>
+                  <div><p>ayanchakraborty.inbox@gmail.com</p></div>
+                  <div><i class="fab fa-github"></i></div>
+                  <div><p>ac-ayan</p></div>
+                  <div><i class="fab fa-linkedin-in"></i></div>
+                  <div><p>ayanac</p></div>
+                </div>
             </div>
             <div className="non-colored">
                 <h2>Get in touch</h2>

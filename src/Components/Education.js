@@ -36,7 +36,12 @@ function Education(){
         Kalinga Institute of Industrial Technology
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>Bachelor of Technology ( B.Tech ) in Computer Science and Engineering.
+        <br></br>
+        CGPA : 9.32 / 10
+        <br></br>
+        Semester : 5th
+        </p>
       </div>
     </div>
   </div>
@@ -53,7 +58,13 @@ function Education(){
       Arambagh Vivekananda Academy
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>
+        Stream : Science
+        <br></br>
+        Board : CBSE
+        <br></br>
+        Senior-Secondary (+2) Examination : 87.2 %
+        </p>
       </div>
 
     </div>
@@ -71,7 +82,11 @@ function Education(){
         Arambagh Vivekananda Academy
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>
+        Board : CBSE
+        <br></br>
+        Secondary Examination : 10 CGPA         
+        </p>
       </div>
     </div>
   </div>
