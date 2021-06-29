@@ -89,6 +89,15 @@
       margin: 60px 10px;
     }
 }
+@media (max-width:568px){
+    .contact-colored{
+        grid-template-columns: auto;
+        height: 500px;
+    }
+    .contact-colored i {
+        margin: 0;
+    }
+}
 @media (max-width: 410px){
     .colored h2{
         font-size: 40px;
