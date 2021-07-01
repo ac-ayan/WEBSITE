@@ -2,32 +2,36 @@ import React from "react";
 import "../css/header-section.css";
 import "../js/header";
 import img0 from "../images/034.png";
-function Header(){
+function Header() {
     return (
         <div className="header-section" name="top-link">
             <div className="text-section">
                 <div className="sub-div">
                     <div className="social">
                         <ul>
-                        <a><li><i class="fab fa-github"></i></li></a>
-                        <a><li><i class="fas fa-envelope"></i></li></a>
-                        <a><li><i class="fab fa-linkedin"></i></li></a>
+                            <a href="https://github.com/ac-ayan"><li><i class="fab fa-github"></i></li></a>
+                            <a href="mailto:ayanchakraborty.inbox@gmail.com"><li><i class="fas fa-envelope"></i></li></a>
+                            <a href="https://www.linkedin.com/in/acayan/"><li><i class="fab fa-linkedin"></i></li></a>
                         </ul>
                     </div>
-                <div className="main-content">
-                <p id="Hi-section" className="mobile-head">Hi there!👋 My name is</p>
-                <h1 className="mobile-head"><span className="name-span">Ayan</span><br />Chakraborty</h1>
-                <h3 className="mobile-head">I'm a <span className="text blue">Web Developer</span> from India.</h3>
-                <div>
-                <button className="button glow-button">Resume</button>
-                </div>
-                
+                    <div className="main-content">
+                        <p id="Hi-section" className="mobile-head">Hi there!👋 My name is</p>
+                        <h1 className="mobile-head"><span className="name-span">Ayan</span><br />Chakraborty</h1>
+                        <h3 className="mobile-head">I'm a <span className="text blue">Web Developer</span> from India.</h3>
+                        <div>
+                            {/* <button className="button glow-button">Resume</button> */}
+                            <button type="button" class="slide">
+                                <div>Resume</div>
+                                <i class="icon-arrow-right"></i>
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            </div>
-            
-            
-            <div className="image-section"><img src={img0} alt="avator"/></div>
+
+
+            <div className="image-section"><img src={img0} alt="avator" /></div>
         </div>
     );
 }
