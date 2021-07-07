@@ -1,10 +1,14 @@
 .header-section {
   display: grid;
   grid-template-columns: 30% 70%;
-  margin: 100px 100px;
+  padding: 120px 100px;
+  
 }
 .header-section h5 {
   margin-top: 20px;
+}
+.first-name {
+  color: #5f5fff;
 }
 .header-section .text-section .sub-div {
   display: grid;
@@ -35,10 +39,13 @@
   /* font-family: "Patrick Hand", cursive; */
   /* font-family: "Satisfy", cursive; */
   font-family: "Special Elite", cursive;
+  /* font-family: 'Poppins', sans-serif; */
   /* font-family: "Titillium Web", sans-serif; */
   /* font-family: 'Gorditas', cursive; */
   /* font-family: 'Sacramento', cursive; */
   /* font-family: 'Salsa', cursive; */
+  color: #030047;
+  letter-spacing: -4px !important;
   
 }
 .header-section .text-section p {
@@ -60,10 +67,10 @@
   animation: blink 0.75s infinite;
 }
 .header-section .image-section {
-  margin-left: 300px !important;
+  margin-left: 200px !important;
 }
 .header-section .image-section img {
-  width: 600px;
+  width: 750px;
 }
 /* .button {
   font-family: "Space Mono", monospace;
@@ -119,7 +126,7 @@
 
 .slide::after {
   content: "";
-  background-color: #6e6efd;
+  background-color: #00da9f;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -194,12 +201,12 @@
 
 @media (max-width: 1454px) {
   .header-section {
-    margin: 100px 60px;
+   padding: 100px 60px;
   }
 }
 @media (max-width: 1358px) {
   .header-section {
-    margin: 100px 60px;
+    padding: 100px 60px;
   }
   .header-section .text-section h1 {
     font-size: 70px;
@@ -233,7 +240,7 @@
   display: none !important;
 } */
   .header-section .image-section img {
-    width: 100%;
+    width: 500PX;
   }
 }
 @media (max-width: 992px) {

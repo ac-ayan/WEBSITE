@@ -1,6 +1,6 @@
-import image1 from "../images/todo.jpg";
+import image1 from "../images/todo.png";
 import image2 from "../images/scribd.png";
-import image3 from "../images/map.jpg";
+import image3 from "../images/map.png";
 const projectdata = [
     {
         image : image1,

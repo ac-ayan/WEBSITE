@@ -2,13 +2,15 @@
     display: grid;
     grid-template-columns: 30% 40%;
     justify-content: space-evenly !important;
-    margin: 80px 0 0px 0;
+    padding: 80px 0 30px 0;
     
 }
 .about-section .text-section{
     text-align: justify;
-    padding: 150px 20px 0 20px;
+    padding: 50px 20px 50px 20px;
     align-items: center;
+    background-color: rgba(0,218,159,0.5);
+    border-radius: 48px;
 }
 .about-section .text-section h1{
     font-family: "Special Elite", cursive;
@@ -20,8 +22,13 @@
     font-family: 'Dekko', cursive;
     font-size: 24px;
 }
+.about-section .image-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
 .about-section .image-section img{
-    width: 500px;
+    width: 550px;
 }
 
 @media (max-width: 1454px){

@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 .colored{
-    background-color: rgb(8, 3, 102);
+    background-color: rgba(8, 3, 102,0.79);
     padding: 40px;
     color: white;
     text-align: center;

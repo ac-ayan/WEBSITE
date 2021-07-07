@@ -4,9 +4,10 @@
     padding-left: 70px;
 }
 .project-section{
-    padding: 0px 150px;
+    padding: 30px 150px;
     font-family: 'Martel Sans', sans-serif;
     font-size: 18px;
+    background-color: rgba(95,95,255,0.4);
     
 }
 .project-section .card-title{
@@ -17,6 +18,7 @@
     max-width: 400px;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255,255,255,0.6);
 }
 .card .card-text{
     text-align: justify;

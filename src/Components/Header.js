@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/header-section.css";
 import "../js/header";
-import img0 from "../images/034.png";
+import img0 from "../images/ava.PNG";
 function Header() {
     return (
         <div className="header-section" name="top-link">
@@ -16,7 +16,7 @@ function Header() {
                     </div>
                     <div className="main-content">
                         <p id="Hi-section" className="mobile-head">Hi there!👋 My name is</p>
-                        <h1 className="mobile-head"><span className="name-span">Ayan</span><br />Chakraborty</h1>
+                        <h1 className="mobile-head"><span className="first-name">Ayan<br /></span>Chakraborty</h1>
                         <h3 className="mobile-head">I'm a <span className="text blue">Web Developer</span> from India.</h3>
                         <div>
                             {/* <button className="button glow-button">Resume</button> */}
